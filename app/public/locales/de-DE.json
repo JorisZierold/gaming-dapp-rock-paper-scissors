@@ -1,0 +1,152 @@
+{
+  "navbar" : {
+    "intro": "Einführung",
+    "startgame": "Starten",
+    "joingame": "Beitreten",
+    "runninggames": "Laufende Runden",
+    "connectwallet": "WALLET VERBINDEN",
+    "results": "Ergebnisse"
+  },
+  "home": {
+    "title": "Schere! Stein! Papier!",
+    "subtitle" : "Als Gaming-DApp, die auf der Ethereum-Blockchain läuft",
+    "introTitle": "Möchtest Du ein Spiel spielen?",
+    "introDescription": "Sicher weißt Du bereits, wie Schere! Stein! Papier! funktioniert, ABER sei Dir bewusst: Anstatt gleichzeitig mit jemandem zu spielen, den Du kennst, spielst Du hier eine vollständig dezentralisierte Spielvariante auf der Blockchain mit einem Fremden Gegner. Wieso kann man diesem Spiel trauen?",
+    "howitworksTitle": "Wie dieses Spiel funktioniert.",
+    "howitworksDescription": "Die Spielregeln sind in einem Smart Contract verankert. Das bedeutet, dass es keinen Mittelsmann gibt, der zwischen den beiden Spielern vermittelt. Der Smart Contract dieses Spiels hat zwei Hauptmerkmale: 1) Trennung jeder Spielsequenz in eindeutige Funktionsaufrufe und 2) den Zug des ersten Spielers mithilfe von Kryptografie zu verbergen.",
+    "starthereTitle": "Schritte zum Starten des Spiels",
+    "step1" : "1. Logge Dich mit einem Wallet ein 🦊",
+    "step2" : "2. Fordere kostenlos ein paar Token von dem Token Faucet an 🚰",
+    "step3" : "3. Gebe den Smart Contract zum Spiel die Genehmigung, diese Token zu bewegen 💸",
+    "repolink": "Schau Dir die Quelldateien auf Github an, um das Innenleben zu inspizieren. 🤓"
+  },
+  "joingame": {
+    "title":"Einem bestehenden Spiel beitreten",
+    "subtitle1": " offene Spielrunde:",
+    "subtitle2": " offene Spielrunden:",
+    "firstplayer": "1. Spieler",
+    "secondplayer": "Warten auf 2. Spieler...",
+    "joingameCTA": "🎲 Diesem Spiel beitreten",
+    "cancelgameCTA": "❌ Dieses Spiel abbrechen"
+  },
+  "startgame": {
+    "title": "Starte ein neues Spiel",
+    "startgameCTA": "🔐 Spiel starten",
+    "passwordTooltip": "Deine Auswahl wird für andere Spieler verborgen, indem dieses zufällige Passwort verwendet wird: {{pwd}}",
+    "isNotPersistent" : "Fehler: Der lokale Webspeicher Deines Browsers funktioniert nicht."
+  },
+  "runninggames": {
+    "title": "Laufende Spiele",
+    "subtitle1": " laufendes Spiel:",
+    "subtitle2": " laufende Spiele:",
+    "firstplayer": "1. Spieler",
+    "secondplayer": "2. Spieler",
+    "reavealCTA": "🔑 Offenbare Deine Hand",
+    "resultCTA": "🔥 Spielergebnis abfragen"
+  },
+  "gameresults": {
+    "title" : "Beendete Spiele",
+    "firstplayer": "1. Spieler",
+    "secondplayer": "2. Spieler"
+  },
+  "tokenfaucet": {
+    "tooltip": "Du kannst ein paar Token kostenlos anfordern, um das Spiel zu spielen. Nachdem Du die Transaktion gezeichnet hast, dauert es einige Sekunden, bis die Token in Deiner Wallet sind."
+  },
+  "useravatar": {
+    "tooltip": "Du bist erfolgreich angemeldet mit: {{account}}"
+  },
+  "playeravatar": {
+    "tooltip": "Adresse: {{account}}"
+  },
+  "eventlistener" : {
+    "tooltip1": "Letzte Aktualisierung bei Blocknummer {{number}}",
+    "tooltip2": " Diese Seite wird mit jeder Interaktion mit dem Smart Contracts des Spiels aktualisiert.",
+    "tooltip3": " Aktuell keine automatischen Updates."
+  },
+  "gamecounter": {
+    "min" : "min.",
+    "sec" : "sek.",
+    "info1": "Spiel ist offen seit: ",
+    "info2": "Spiel läuft seit: "
+  },
+  "gamestate": {
+    "info": "Spielrunde #{{gameId}} mit einer Potgröße von {{amount}} Token."
+  },
+  "networkselector" : {
+    "button" : "NETZWERK WECHSELN",
+    "dialogTitle" : "Wähle ein Netzwerk",
+    "info1": "Verbunden mit",
+    "info2": "(nicht unterstützt)"
+  },
+  "placeholdergame": {
+    "startorwait": "Starte ein Spiel oder warte.",
+    "loginfirst": "Zuerst einloggen!"
+  },
+  "playedhand" : {
+    "playerSuffix": "(Du)",
+    "nobody" : "Niemand beigetreten"
+  },
+  "selectbet" : {
+    "title" : "Wähle Deinen Wetteinsatz",
+    "setTokenTitle": "Token auswählen",
+    "setTokenDescription": "Noch sind keine anderen Token auf der Whitelist.",
+    "helpertext": "Der Mindesteinsatz beträgt {{amount}} Token.",
+    "inputlabel" : "Wetteinsatz in Token",
+    "closeDialog" : "Schließen"
+  },
+  "selecthand" : {
+    "title": "Wähle Deine Hand",
+    "ROCK": "STEIN",
+    "PAPER" : "PAPIER",
+    "SCISSORS": "SCHERE"
+  },
+  "tokenbalance" : {
+    "title" : "Dein Kontostand",
+    "refreshTooltip": "Du kannst {{timeout}} Sekunden aktualisieren, um nach Updates zu suchen. Letzte Aktualisierung um: {{time}}",
+    "currencyTooltip1": "Görli ETH, die native Währung des Görli-Testnetzwerks. Wird benötigt, um Transaktionsgebühren (Gas) zu bezahlen.",
+    "currencyTooltip2": "Ist ein ERC-20-Token, um dieses Spiel zu spielen. Die Token-Adresse lautet: {{address}}"
+  },
+  "walletmodal": {
+    "title" : "Wallet verbinden",
+    "installMetamask": "MetaMask installieren",
+    "error": "Verbindung fehlgeschlagen",
+    "cancelCTA": "Abbrechen"
+  },
+  "gamestats": {
+    "title": "Verteilung der gespielten Hände",
+    "ROCK" : "STEIN",
+    "PAPER" : "PAPIER",
+    "SCISSORS": "SCHERE"
+  },
+  "gamestates" : {
+    "canceled" : "❌ Das Spiel wurde vom 1. Spieler abgebrochen.",
+    "noreveal" : "🏃 Der 1. Spieler offenbart nicht, daher hat der 2. Spieler gewonnen.",
+    "draw" : "🔥 Unentschieden!",
+    "firstplayerwon" : "🥳 1. Spieler gewinnt!",
+    "secondplayerwon": "🥳 2. Spieler gewinnt!"
+  },
+  "approvetoken": {
+    "title" : "Token genehmigen",
+    "description" : "Um das Spiel mit Token zu spielen, muss der Smart Contract die Erlaubnis haben, Deinen Wetteinsatz entsprechend zu bewegen. Genehmige dazu eine beliebige Anzahl an Token, mindestens jedoch die Menge, mit der Du wetten möchtest",
+    "subtitleToken": "Ausgewählter Token",
+    "subtitleAmount" : "Wähle den Betrag",
+    "inputAmount": "Betrag zur Genehmigung",
+    "linktext" : "Token werden für den Smart Contract von Schere! Stein! Papier! genehmigt.",
+    "approveCTA" : "Token jetzt genehmigen",
+    "errorMessage": "Genehmigung fehlgeschlagen: {{msg}}"
+  },
+  "tx": {
+    "sending": "Transaktion wird gesendet...",
+    "confirm": "Transaktion bestätigen ✍️",
+    "toastPending": "Transaktion wird gesendet...",
+    "toastSuccess" : "Transaktion wurde erfolgreich ausgeführt 👌",
+    "toastError" : "Ein unerwarteter Fehler ist aufgetreten 🤯",
+    "loginFirst" : "Du musst Dich zuerst einloggen.",
+    "wrongNetwork" : "Du musst das Netzwerk wechseln.",
+    "unknownError" : "Unbekannter Fehler"
+  },
+  "footer" : {
+    "credits": "🙋‍♂️ Erstellt von ",
+    "github" : "Schau es Dir auf GitHub an 🤓"
+  }
+  }

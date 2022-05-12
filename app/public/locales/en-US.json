@@ -1,0 +1,152 @@
+{
+  "navbar" : {
+    "intro": "Intro",
+    "startgame": "Start",
+    "joingame": "Join",
+    "runninggames": "Running Games",
+    "connectwallet": "CONNECT WALLET",
+    "results": "Results"
+  },
+  "home": {
+    "title": "Rock! Paper! Scissors!",
+    "subtitle" : "As a Gaming DApp running on the Ethereum Blockchain",
+    "introTitle": "Do you wanna play a Game?",
+    "introDescription": "For sure, you already know how Rock! Paper! Scissors! works BUT be aware: Instead of playing it simultaneous if someone you're already know, you're playing a fully decentralized game on the blockchain, with some stranger opponent. So why can you trust this game?",
+    "howitworksTitle": "How this Game works.",
+    "howitworksDescription": "The rules of the Game are backed into a smart contract. This means, that there is no middleman who mediate between the two players. The smart contract of this game has two main features: 1) Separation of each game sequence into distinctive function calls and 2) Hiding the move of the 1st player with the help of cryptography.",
+    "starthereTitle": "Steps to begin the Game",
+    "step1" : "1. Login with a Wallet 🦊",
+    "step2" : "2. Request some free tokens from the faucet 🚰",
+    "step3" : "3. Approve Tokens to the smart contract of the Game 💸",
+    "repolink": "Have a look at the source files on GitHub to inspect the inner workings. 🤓"
+  },
+  "joingame": {
+    "title":"Join an existing Game",
+    "subtitle1": " open Game:",
+    "subtitle2": " open Games:",
+    "firstplayer": "1st Player",
+    "secondplayer": "Waiting for 2nd Player...",
+    "joingameCTA" : "🎲 Join this Game",
+    "cancelgameCTA": "❌ Cancel this Game"
+  },
+  "startgame": {
+    "title": "Start a new Game",
+    "startgameCTA" : "🔐 Start Game",
+    "passwordTooltip": "Your choice is hidden for other players by using the random password: {{pwd}}",
+    "isNotPersistent" : "Error: The local web storage of your browser does not work."
+  },
+  "runninggames": {
+    "title": "Running Games",
+    "subtitle1": " running Game:",
+    "subtitle2": " running Games:",
+    "firstplayer": "1st Player",
+    "secondplayer": "2nd Player",
+    "reavealCTA": "🔑 Reveal your Hand",
+    "resultCTA": "🔥 Call Game Result"
+  },
+  "gameresults": {
+    "title" : "Completed Games",
+    "firstplayer": "1st Player",
+    "secondplayer": "2nd Player"
+  },
+  "tokenfaucet": {
+    "tooltip": "You can request some tokens for free to play the game. After you signed the transaction, it takes a few seconds until the tokens are supplied to your wallet."
+  },
+  "useravatar": {
+    "tooltip": "You are successfully logged in with: {{account}}"
+  },
+  "playeravatar": {
+    "tooltip": "Address: {{account}}"
+  },
+  "eventlistener" : {
+    "tooltip1" : "Last update on block number {{number}}",
+    "tooltip2" : " Page updates with every interaction with the smart contract of the game.",
+    "tooltip3" : " Currently no automatic updates."
+  },
+  "gamecounter": {
+    "min" : "min.",
+    "sec" : "sec.",
+    "info1": "Game is open since: ",
+    "info2": "Game is running since: "
+  },
+  "gamestate" : {
+    "info": "Game Round #{{gameId}} with a pot size of {{amount}} Token."
+  },
+  "networkselector" : {
+    "button" : "CHANGE NETWORK",
+    "dialogTitle" : "Select a network",
+    "info1": "Connected to",
+    "info2" : "(unsupported)"
+  },
+  "placeholdergame": {
+    "startorwait": "Start a game or wait.",
+    "loginfirst": "Login first!"
+  },
+  "playedhand" : {
+    "playerSuffix": "(You)",
+    "nobody" : "Nobody Joined"
+  },
+  "selectbet" : {
+    "title" : "Set your Bet",
+    "setTokenTitle": "Select a Token",
+    "setTokenDescription": "No other tokens are whitelisted yet.",
+    "helpertext": "Minimum Bet is {{amount}} Token.",
+    "inputlabel" : "Wager in Tokens",
+    "closeDialog" : "Close"
+  },
+  "selecthand" : {
+    "title": "Select your Hand",
+    "ROCK" : "ROCK",
+    "PAPER" : "PAPER",
+    "SCISSORS": "SCISSORS"
+  },
+  "tokenbalance" : {
+    "title": "Your Balance",
+    "refreshTooltip": "You can refresh every {{timeout}} seconds to check for updates. Last refresh at: {{time}}",
+    "currencyTooltip1" : "Görli ETH, the native currency of the Görli test network. Needed to pay for transaction gas fees.",
+    "currencyTooltip2" : "An ERC-20 token to play this game. The token address is: {{address}}"
+  },
+  "walletmodal": {
+    "title" : "Connect Wallet",
+    "installMetamask" : "Install MetaMask",
+    "error" : "Failed to connect",
+    "cancelCTA" : "Cancel"
+  },
+  "gamestats": {
+    "title": "Distribution of played Hands",
+    "ROCK" : "ROCK",
+    "PAPER" : "PAPER",
+    "SCISSORS": "SCISSORS"
+  },
+  "gamestates" : {
+    "canceled" : "❌ Game was canceled by 1st Player.",
+    "noreveal" : "🏃 1st Player does not revelead, therefore 2nd Player won.",
+    "draw" : "🔥 Draw!",
+    "firstplayerwon" : "🥳 1st Player won!",
+    "secondplayerwon": "🥳 2nd Player won!"
+  },
+  "approvetoken": {
+    "title" : "Approve Token",
+    "description" : "In order to play the game with Token, the smart contract need to have the allowance to handle your bet accordingly. Approve an arbitrary amount of Tokens, at least the amount you want to bet with.",
+    "subtitleToken": "Selected Token",
+    "subtitleAmount" : "Choose Amount",
+    "inputAmount": "Amount to Approve",
+    "linktext" : "Tokens will be approved to the smart contract of Rock! Paper! Scissors!",
+    "approveCTA" : "Approve Tokens now",
+    "errorMessage": "Token Approval failed: {{msg}}"
+  },
+  "tx": {
+    "sending": "Sending transaction...",
+    "confirm": "Confirm Transaction ✍️",
+    "toastPending": "Sending transaction...",
+    "toastSuccess" : "Transaction is successfully executed 👌",
+    "toastError" : "An unexpected error occurred 🤯",
+    "loginFirst" : "You need to login first.",
+    "wrongNetwork" : "You need to change the network.",
+    "unknownError" : "Unknown Error"
+  },
+  "footer" : {
+    "credits": "🙋‍♂️ Created by ",
+    "github" : "Check it out on GitHub 🤓"
+  }
+  }

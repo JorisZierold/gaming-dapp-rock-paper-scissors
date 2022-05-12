@@ -1,0 +1,13 @@
+{
+    "walletmodal": {
+        "installMetamask": "https://metamask.io/download/"
+    },
+    "blockExplorer": {
+        "block": "https://goerli.etherscan.io/block/",
+        "address": "https://goerli.etherscan.io/address/"
+    },
+    "referrals": {
+        "joriszierold":"https://www.joriszierold.com/",
+        "githubRepo": "https://github.com/JorisZierold/rock-paper-scissors"
+    }
+}

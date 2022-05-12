@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.6.1",
+    "solidity-coverage": "^0.7.20",
+    "truffle-assertions": "^0.9.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  }
+}

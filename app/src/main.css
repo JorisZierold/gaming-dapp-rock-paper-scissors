@@ -1,0 +1,24 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.logo,
+h1,
+h2,
+h3,
+h4,
+nav,
+.MuiChip-label {
+  font-family: "Josefin Sans", sans-serif;
+}

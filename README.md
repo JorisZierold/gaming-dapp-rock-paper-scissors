@@ -26,7 +26,7 @@ As a result of these adjustments, it's probably a fair game, although there are 
 ## The Gameplay
 As the keyword _Dapp_ in the title implies, this game consists of a backend (smart contracts running on the Ethereum blockchain) and a frontend (client-side speaking to the blockchain). In the following, the gameplay is described based on the frontend user interface.
 
-**For a Live-Version of the Dapp check out:** [https://rockpaperscissorsdapp.netlify.app/](https://rockpaperscissorsdapp.netlify.app/)
+**For a Live-Version of the Dapp check out:** [https://gaming-dapp-rock-paper-scissors.netlify.app/](https://gaming-dapp-rock-paper-scissors.netlify.app/)
 
 ### Get Ready: Connect Wallet & Approve Tokens
 Before a User can start a new game or joining and existing one, two things are required. First, the User need to connect with his wallet (as in any other DApp). Secondly, the User needs to approve tokens to the _Rock Paper Scissors_ game contract, so that this contract can secure the bet's on his behalf. In this example, DApp, there is a faucet to get some game token to play around with.
@@ -105,10 +105,10 @@ In order to not tie up one of the player's if something unexpected and evil happ
 And for development and testing: Hardhat, truffle-assertions, chai, solidity-coverage
 
 ## How to clone this DApp
-1. `git clone https://github.com/JorisZierold/rock-paper-scissors.git`
+1. `git clone https://github.com/JorisZierold/gaming-dapp-rock-paper-scissors.git`
 2. `cd rock-paper-scissors/app`
 3. `npm install`
-4. create `.env` inside `rock-paper-scissors/app`directory
+4. create `.env` inside `gaming-dapp-rock-paper-scissors/app`directory
 ```
 VITE_ALCHEMY_ID=
 VITE_ETHERSCAN_API_KEY=
@@ -124,7 +124,7 @@ VITE_CONTRACT_MINIMAL_FORWARDER=
 VITE_CONTRACT_TOKENFAUCET=
 VITE_OZ_AUTOTASK_KEY=
 ```
-5. run `npm run dev` inside `rock-paper-scissors/app`directory 
+5. run `npm run dev` inside `gaming-dapp-rock-paper-scissors/app`directory 
 6. visit `http://localhost:3000/`
 
 

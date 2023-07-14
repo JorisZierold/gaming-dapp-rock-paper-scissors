@@ -31,24 +31,18 @@ As the keyword _Dapp_ in the title implies, this game consists of a backend (sma
 ### Get Ready: Connect Wallet & Approve Tokens
 Before a User can start a new game or joining and existing one, two things are required. First, the User need to connect with his wallet (as in any other DApp). Secondly, the User needs to approve tokens to the _Rock Paper Scissors_ game contract, so that this contract can secure the bet's on his behalf. In this example, DApp, there is a faucet to get some game token to play around with.
 
-https://user-images.githubusercontent.com/13258954/167956919-1d411bed-dddb-4f70-96a9-9e3fc95d16b7.mov
 
 ### 1. Start a Game 
 A User selects his desired hand and the amount of tokens to bet with. As seen in the tooltip of the _Start Game_ button, a random 10-digit password is automatically generated in the background, in order to use it for hiding his hand (see [Smart Contract Implementation](#smart-contract-implementation)). After a new game was started and the related transaction is mined on the blockchain, the game is _open_ and ready for a 2nd player.
 
-https://user-images.githubusercontent.com/13258954/167958212-cb9c1add-fa96-427c-9177-e769c23a7e3f.mov
 
 ### 2. (Or) Join a Game
 A User can join an existing game as 2nd player, if there is already one open. In order to join, the User needs to select his desired hand and accepting a  pot size bet when signing the transaction after clicking _Join this Game_. If so, a new game round officially started and the game will be listed under _Running_ Games.
 If nobody can be found to join an open game round, the 1st player has the possibility to cancel his bet after a `CANCEL_TIMEOUT` (of currently 5 mins.).
 
-https://user-images.githubusercontent.com/13258954/167960479-a306f511-7329-4853-959b-4f247821cfa5.mov
-
 
 ### 3. Running Games
 The User who is the 1st player can now reveal his hand until the `REVEAL_TIMEOUT` passed by. After that, both players can call for the game result of the game round they are in. So the game round is decided.
-
-https://user-images.githubusercontent.com/13258954/167960436-f7faf8c9-bedb-4081-a6aa-e9df8b15e1bf.mov
 
 
 ### 4. Results
